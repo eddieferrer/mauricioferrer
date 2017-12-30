@@ -13,13 +13,16 @@
 <!-- favicon -->
 <link rel="icon" href="images/favicon.png">
 <!-- page title -->
-<title>MP - Minimal Portfolio Theme</title>
+<title>MAURICIO FERRER - RA, LEED AP</title>
 <!-- bootstrap css -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- css -->
 <link href="css/style.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
 <link href="css/magnific-popup.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/mf_style.css">
+
 <!-- fonts -->
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,900" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -55,45 +58,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="images/logo2.png" alt="logo"></a>
             </div><!-- / navbar-header -->
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.html"><span>HOME</span></a></li>
                     <li><a href="about.html"><span>ABOUT</span></a></li>
                     <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>BLOG</span> <span class="dropdown-icon"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>PROJECTS</span> <span class="dropdown-icon"></span></a>
                     <ul class="dropdown-menu animated zoomIn fast">
-                        <li><a href="blog.html"><span>BLOG FULLWIDTH</span></a></li>
-                        <li><a href="blog-masonry.html"><span>BLOG MASONRY</span></a></li>
-                        <li><a href="blog-sidebar.html"><span>BLOG SIDEBAR</span></a></li>
-                        <li><a href="single-post-full.html"><span>POST FULLWIDTH</span></a></li>
-                        <li><a href="single-post.html"><span>POST SIDEBAR</span></a></li>
+                        <li><a href="#"><span>PROJECT 1</span></a></li>
+                        <li><a href="#"><span>PROJECT 2</span></a></li>
+                        <li><a href="#"><span>PROJECT 3</span></a></li>
+                        <li><a href="#"><span>PROJECT 4</span></a></li>
                     </ul>
                     </li>
-                    <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>PORTFOLIO</span> <span class="dropdown-icon"></span></a>
-                    <ul class="dropdown-menu animated zoomIn fast">
-                        <li><a href="grid-2col.html"><span>GRID 2COL</span></a></li>
-                        <li><a href="grid-3col.html"><span>GRID 3COL</span></a></li>
-                        <li><a href="grid-4col.html"><span>GRID 4COL</span></a></li>
-                        <li><a href="masonry-2col.html"><span>MASONRY 2COL</span></a></li>
-                        <li><a href="masonry-3col.html"><span>MASONRY 3COL</span></a></li>
-                        <li><a href="masonry-4col.html"><span>MASONRY 4COL</span></a></li>
-                        <li><a href="single-project.html"><span>SINGLE PROJECT</span></a></li>
-                        <li><a href="single-project-2.html"><span>SINGLE PROJECT 2</span></a></li>
-                        <li><a href="single-project-3.html"><span>SINGLE PROJECT 3</span></a></li>
-                    </ul>
-                    </li>
-                    <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>PAGES</span> <span class="dropdown-icon"></span></a>
-                    <ul class="dropdown-menu animated zoomIn fast">
-                        <li><a href="about2.html"><span>ABOUT 2</span></a></li>
-                        <li><a href="contact2.html"><span>CONTACT 2</span></a></li>
-                        <li><a href="404.html"><span>404 PAGE</span></a></li>
-                        <li><a href="components.html"><span>COMPONENTS</span></a></li>
-                    </ul>
-                    </li>
+                    <li><a href="docs/Architect_M_Ferrer_CV.pdf" target="_blank"><span>RESUME / CV</span></a></li>
                     <li><a href="contact.html"><span>CONTACT</span></a></li>
                 </ul>
             </div><!--/ nav-collapse -->
@@ -102,22 +82,25 @@
     <!-- / nav -->
 
     <!-- header-banner -->
-    <div id="header-banner" class="demo-1">
+    <div id="header-banner" class="demo-2">
         <div class="banner-content text-center">
-            <div class="banner-info">
-                <h1>MINIMAL PORTFOLIO</h1>
-                <p>Minimal Portfolio Bootstrap Theme</p>
-            </div><!-- / banner-info -->
+            <div class="banner-border">
+                <div class="banner-info">
+                    <h1>MAURICIO FERRER</h1>
+                    <p><strong>RA, LEED AP</strong></p>
+                </div><!-- / banner-info -->
+            </div><!-- / banner-border -->
         </div><!-- / banner-content -->
     </div>
     <!-- / header-banner -->
+
 </header>
 <!-- / header -->
 
 <!-- content -->
 
 <!-- portfolio section -->
-<section id="portfolio">
+<section id="portfolio" class="info-box">
     <div class="container">
         <!-- portfolio filter -->
         <ul class="portfolio-filter list-inline text-center">
@@ -129,11 +112,11 @@
         </ul><!--end portfolio filter -->
         <ul class="row portfolio list-unstyled lightbox" id="grid">
             <!-- project -->
-            <li class="col-xs-6 col-md-4 project" data-groups='["illustration"]'>
+            <li class="col-xs-6 col-md-4 project m-project" data-groups='["illustration"]'>
                 <div class="img-bg-color primary">
                     <a href="single-project.html" class="project-link"></a>
                     <!-- / project-link -->
-                    <img src="images/project.jpg" alt="">
+                    <img src="images/m-project.jpg" alt="">
                     <!-- / project-image -->
 
                     <!-- project-hover-tools -->
@@ -141,7 +124,7 @@
                         <a href="single-project.html" class="view-btn">
                             <i class="lnr lnr-eye"></i>
                         </a>
-                        <a href="images/project.jpg" class="open-gallery">
+                        <a href="images/m-project.jpg" class="open-gallery">
                             <i class="lnr lnr-frame-expand"></i>
                         </a>
                     </div><!-- / project-hover-tools -->
@@ -183,11 +166,11 @@
             <!-- / project -->
 
             <!-- project -->
-            <li class="col-xs-6 col-md-4 project" data-groups='["logo-design"]'>
+            <li class="col-xs-6 col-md-4 project m-project" data-groups='["logo-design"]'>
                 <div class="img-bg-color primary">
                     <a href="single-project.html" class="project-link"></a>
                     <!-- / project-link -->
-                    <img src="images/project.jpg" alt="">
+                    <img src="images/m-project.jpg" alt="">
                     <!-- / project-image -->
 
                     <!-- project-hover-tools -->
@@ -195,7 +178,7 @@
                         <a href="single-project.html" class="view-btn">
                             <i class="lnr lnr-eye"></i>
                         </a>
-                        <a href="images/project.jpg" class="open-gallery">
+                        <a href="images/m-project.jpg" class="open-gallery">
                             <i class="lnr lnr-frame-expand"></i>
                         </a>
                     </div><!-- / project-hover-tools -->
@@ -237,11 +220,11 @@
             <!-- / project -->
 
             <!-- project -->
-            <li class="col-xs-6 col-md-4 project" data-groups='["graphic-design", "logo-design", "branding"]'>
+            <li class="col-xs-6 col-md-4 project m-project" data-groups='["graphic-design", "logo-design", "branding"]'>
                 <div class="img-bg-color primary">
                     <a href="single-project.html" class="project-link"></a>
                     <!-- / project-link -->
-                    <img src="images/project.jpg" alt="">
+                    <img src="images/m-project.jpg" alt="">
                     <!-- / project-image -->
 
                     <!-- project-hover-tools -->
@@ -249,7 +232,7 @@
                         <a href="single-project.html" class="view-btn">
                             <i class="lnr lnr-eye"></i>
                         </a>
-                        <a href="images/project.jpg" class="open-gallery">
+                        <a href="images/m-project.jpg" class="open-gallery">
                             <i class="lnr lnr-frame-expand"></i>
                         </a>
                     </div><!-- / project-hover-tools -->
@@ -291,11 +274,11 @@
             <!-- / project -->
 
             <!-- project -->
-            <li class="col-xs-6 col-md-4 project" data-groups='["graphic-design", "branding"]'>
+            <li class="col-xs-6 col-md-4 project m-project" data-groups='["graphic-design", "branding"]'>
                 <div class="img-bg-color primary">
                     <a href="single-project.html" class="project-link"></a>
                     <!-- / project-link -->
-                    <img src="images/project.jpg" alt="">
+                    <img src="images/m-project.jpg" alt="">
                     <!-- / project-image -->
 
                     <!-- project-hover-tools -->
@@ -303,7 +286,7 @@
                         <a href="single-project.html" class="view-btn">
                             <i class="lnr lnr-eye"></i>
                         </a>
-                        <a href="images/project.jpg" class="open-gallery">
+                        <a href="images/m-project.jpg" class="open-gallery">
                             <i class="lnr lnr-frame-expand"></i>
                         </a>
                     </div><!-- / project-hover-tools -->
@@ -345,11 +328,11 @@
             <!-- / project -->
 
             <!-- project -->
-            <li class="col-xs-6 col-md-4 project" data-groups='["branding"]'>
+            <li class="col-xs-6 col-md-4 project m-project" data-groups='["branding"]'>
                 <div class="img-bg-color primary">
                     <a href="single-project.html" class="project-link"></a>
                     <!-- / project-link -->
-                    <img src="images/project.jpg" alt="">
+                    <img src="images/m-project.jpg" alt="">
                     <!-- / project-image -->
 
                     <!-- project-hover-tools -->
@@ -357,7 +340,7 @@
                         <a href="single-project.html" class="view-btn">
                             <i class="lnr lnr-eye"></i>
                         </a>
-                        <a href="images/project.jpg" class="open-gallery">
+                        <a href="images/m-project.jpg" class="open-gallery">
                             <i class="lnr lnr-frame-expand"></i>
                         </a>
                     </div><!-- / project-hover-tools -->
@@ -399,11 +382,11 @@
             <!-- / project -->
 
             <!-- project -->
-            <li class="col-xs-6 col-md-4 project" data-groups='["logo-design", "branding"]'>
+            <li class="col-xs-6 col-md-4 project m-project" data-groups='["logo-design", "branding"]'>
                 <div class="img-bg-color primary">
                     <a href="single-project.html" class="project-link"></a>
                     <!-- / project-link -->
-                    <img src="images/project.jpg" alt="">
+                    <img src="images/m-project.jpg" alt="">
                     <!-- / project-image -->
 
                     <!-- project-hover-tools -->
@@ -411,7 +394,7 @@
                         <a href="single-project.html" class="view-btn">
                             <i class="lnr lnr-eye"></i>
                         </a>
-                        <a href="images/project.jpg" class="open-gallery">
+                        <a href="images/m-project.jpg" class="open-gallery">
                             <i class="lnr lnr-frame-expand"></i>
                         </a>
                     </div><!-- / project-hover-tools -->
@@ -453,98 +436,24 @@
             <!-- / project -->
 
             <!-- sizer -->
-            <li class="col-xs-6 col-md-4 shuffle_sizer"></li>      
+            <li class="col-xs-6 col-md-4 shuffle_sizer"></li>
         </ul> <!-- / projects -->
     </div><!-- / container -->
 
 </section>
 <!-- / portfolio section -->
 
-<!-- blog section 3col -->
-<section id="blog-small">
-    <div class="container">
-        <div class="page-header no-margin text-center">
-            <h2>LATEST POSTS</h2>
-        </div>
-        <p class="text-center">Sed imperdiet vitae ipsum a tincidunt. Vivamus id ligula turpis. Duis viverra arcu quis.</p>
-        <div class="row">
-
-            <!-- post-block -->
-            <div class="col-sm-4">
-                <div class="post-block">
-                    <a href="single-post.html"><img src="images/post-img.jpg" alt=""></a>
-                    <div class="small-post-text">
-                        <h5><a href="single-post.html">SINGLE POST</a></h5>
-                        <p class="small-post-meta">AUG 16, 2016</p>
-                        <p class="space-bottom">Suspendisse in mattis neque, sed accumsan erat. Maecenas eget metus dui. Vestibulum accumsan massa quam...</p>
-                        <p class="small-post-footer">
-                            <a href="single-post.html">READ MORE</a>
-                            <span class="post-icons pull-right">
-                                <a href="#x"><i class="lnr lnr-thumbs-up"></i></a>
-                                <a href="#x"><i class="lnr lnr-bubble"></i></a>
-                            </span>
-                        </p>
-                    </div><!-- / small-post-text -->
-                </div><!-- / post-block -->
-            </div><!-- / col-md-4 -->
-            <!-- / post-block -->
-
-            <!-- post-block -->
-            <div class="col-sm-4">
-                <div class="post-block">
-                    <a href="single-post-full.html"><img src="images/post-img.jpg" alt=""></a>
-                    <div class="small-post-text">
-                        <h5><a href="single-post-full.html">FULLWIDTH POST</a></h5>
-                        <p class="small-post-meta">AUG 16, 2016</p>
-                        <p class="space-bottom">Suspendisse in mattis neque, sed accumsan erat. Maecenas eget metus dui. Vestibulum accumsan massa quam...</p>
-                        <p class="small-post-footer">
-                            <a href="single-post-full.html">READ MORE</a>
-                            <span class="post-icons pull-right">
-                                <a href="#x"><i class="lnr lnr-thumbs-up"></i></a>
-                                <a href="#x"><i class="lnr lnr-bubble"></i></a>
-                            </span>
-                        </p>
-                    </div><!-- / small-post-text -->
-                </div><!-- / post-block -->
-            </div><!-- / col-md-4 -->
-            <!-- / post-block -->
-
-            <!-- post-block -->
-            <div class="col-sm-4">
-                <div class="post-block">
-                    <a href="single-post.html"><img src="images/post-img.jpg" alt=""></a>
-                    <div class="small-post-text">
-                        <h5><a href="single-post.html">POST WITH SIDEBAR</a></h5>
-                        <p class="small-post-meta">AUG 16, 2016</p>
-                        <p class="space-bottom">Suspendisse in mattis neque, sed accumsan erat. Maecenas eget metus dui. Vestibulum accumsan massa quam...</p>
-                        <p class="small-post-footer">
-                            <a href="single-post.html">READ MORE</a>
-                            <span class="post-icons pull-right">
-                                <a href="#x"><i class="lnr lnr-thumbs-up"></i></a>
-                                <a href="#x"><i class="lnr lnr-bubble"></i></a>
-                            </span>
-                        </p>
-                    </div><!-- / small-post-text -->
-                </div><!-- / post-block -->
-            </div><!-- / col-md-4 -->
-            <!-- / post-block -->
-
-        </div><!-- / row -->
-    </div><!-- / container -->
-</section>
-<!-- / blog section 3col -->
-
 <!-- / content -->
 
 <!-- footer -->
 <footer>
     <div class="container">
-        <p class="footer-info">© MP - MINIMAL PORTFOLIO
-            <span class="social pull-right">
+        <p class="footer-info">© MAURICIO FERRER
+            <!-- <span class="social pull-right">
                 <a href="#x"><i class="fa fa-facebook"></i></a>
                 <a href="#x"><i class="fa fa-twitter"></i></a>
                 <a href="#x"><i class="fa fa-instagram"></i></a>
-            </span>
+            </span> -->
         </p>
     </div><!-- / container -->
 </footer>
