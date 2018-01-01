@@ -78,6 +78,10 @@
 
 <?php include 'includes/footer_with_scripts.html';?>
 
+<!-- contact-form -->
+<script src="js/validator.min.js" type="text/javascript"></script>
+<script src="js/form-scripts.js" type="text/javascript"></script>
+<!-- / contact-form -->
 </body>
 
 </html>
