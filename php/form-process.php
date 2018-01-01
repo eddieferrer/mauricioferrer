@@ -50,7 +50,7 @@ $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
 
-$headers  = "From: Admin <admin@mauricioferrer.com>" . "\r\n";
+$headers  = "From: SizeSquirrel Admin <noreply@sizesquirrel.com>" . "\r\n";
 $headers .= 'MIME-Version: 1.0' . "\r\n";
 $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
