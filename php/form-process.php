@@ -32,27 +32,27 @@ if (empty($_POST["message"])) {
 }
 
 //Add your email here
-$EmailTo = "eferrer@gmail.com";
+$EmailTo = "mferrer920@gmail.com";
 $Subject = "[mauricioferrer.com] New Message Received";
 
 // prepare email body text
 $Body = "";
 $Body .= "Name: ";
 $Body .= $name;
-$Body .= "\n";
+$Body .= "\r\n";
 $Body .= "Email: ";
 $Body .= $email;
-$Body .= "\n";
+$Body .= "\r\n";
 $Body .= "Subject: ";
 $Body .= $Subject;
-$Body .= "\n";
+$Body .= "\r\n";
 $Body .= "Message: ";
 $Body .= $message;
-$Body .= "\n";
+$Body .= "\r\n";
 
 $headers  = "From: SizeSquirrel Admin <noreply@sizesquirrel.com>" . "\r\n";
 $headers .= 'MIME-Version: 1.0' . "\r\n";
-$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+$headers .= "Content-type: text; charset=iso-8859-1\r\n";
 
 // send email
 $success = mail($EmailTo, $Subject, $Body, $headers);
