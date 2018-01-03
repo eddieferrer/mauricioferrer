@@ -49,21 +49,21 @@
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Under Construction</span>
                 <a href="capitol3.jpg" class="project_image">
-                  <img src="capitol3.jpg" alt="" class="space-bottom-30 ">
+                  <img src="capitol3.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Render by KRJDA</span>
                 <a href="capitol1.jpg" class="project_image">
-                  <img src="capitol1.jpg" alt="" class="space-bottom-30 ">
+                  <img src="capitol1.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Render by KRJDA</span>
                 <a href="capitol2.jpg" class="project_image">
-                  <img src="capitol2.jpg" alt="" class="space-bottom-30 ">
+                  <img src="capitol2.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
               <!-- sizer -->

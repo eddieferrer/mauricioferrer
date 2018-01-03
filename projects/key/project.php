@@ -49,84 +49,84 @@
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Front View</span>
                 <a href="key1.jpg" class="project_image">
-                  <img src="key1.jpg" alt="" class="space-bottom-30 ">
+                  <img src="key1.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Plaza View</span>
                 <a href="key2.jpg" class="project_image">
-                  <img src="key2.jpg" alt="" class="space-bottom-30 ">
+                  <img src="key2.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="key3.png" class="project_image">
-                  <img src="key3.png" alt="" class="space-bottom-30 ">
+                  <img src="key3.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="key4.png" class="project_image">
-                  <img src="key4.png" alt="" class="space-bottom-30 ">
+                  <img src="key4.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="key5.jpg" class="project_image">
-                  <img src="key5.jpg" alt="" class="space-bottom-30 ">
+                  <img src="key5.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="key6.png" class="project_image">
-                  <img src="key6.png" alt="" class="space-bottom-30 ">
+                  <img src="key6.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Rear View</span>
                 <a href="key7.jpg" class="project_image">
-                  <img src="key7.jpg" alt="" class="space-bottom-30 ">
+                  <img src="key7.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Entry View</span>
                 <a href="key8.jpg" class="project_image">
-                  <img src="key8.jpg" alt="" class="space-bottom-30 ">
+                  <img src="key8.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="key9.png" class="project_image">
-                  <img src="key9.png" alt="" class="space-bottom-30 ">
+                  <img src="key9.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="key10.png" class="project_image">
-                  <img src="key10.png" alt="" class="space-bottom-30 ">
+                  <img src="key10.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>South View</span>
                 <a href="key11.jpg" class="project_image">
-                  <img src="key11.jpg" alt="" class="space-bottom-30 ">
+                  <img src="key11.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Interior View</span>
                 <a href="key12.jpg" class="project_image">
-                  <img src="key12.jpg" alt="" class="space-bottom-30 ">
+                  <img src="key12.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
-              <li class="col-xs-6 col-md-4 m-project">
+              <li class="col-xs-6 col-md-8 m-project">
                 <a href="key13.png" class="project_image">
-                  <img src="key13.png" alt="" class="space-bottom-30 ">
+                  <img src="key13.png" alt="" class="space-bottom-30">
                 </a>
               </li>
               <!-- sizer -->

@@ -116,7 +116,7 @@
                 <div class="img-bg-color primary">
                     <a href="projects/lanai/project.php" class="project-link">
                       <!-- / project-link -->
-                      <img src="projects/lanai/lanai1.jpg" alt="">
+                      <img src="projects/lanai/lanai8.jpg" alt="">
                       <!-- / project-image -->
 
                       <!-- project-hover-tools -->
@@ -178,6 +178,150 @@
                     <div class="project-details">
                         <h5 class="project-title">LOW-RISE LUXURY CONDOMINIUM</h5>
                         <p class="skill">BAY HARBOR, FL</p>
+                    </div><!-- / project-details -->
+                </div><!-- / img-bg-color -->
+            </li>
+            <!-- / project -->
+
+            <!-- project -->
+            <li class="col-xs-6 col-md-4 project m-project">
+                <div class="img-bg-color primary">
+                    <a href="projects/midrise/project.php" class="project-link">
+                      <!-- / project-link -->
+                      <img src="projects/midrise/midrise1.jpg" alt="">
+                      <!-- / project-image -->
+
+                      <!-- project-hover-tools -->
+                      <div class="project-hover-tools">
+                          <span class="view-btn">
+                              <i class="lnr lnr-eye"></i>
+                          </span>
+                      </div><!-- / project-hover-tools -->
+                    </a>
+                    <!-- project-details -->
+                    <div class="project-details">
+                        <h5 class="project-title">MID-RISE CONDOMINIUM</h5>
+                        <p class="skill">MIAMI, FL</p>
+                    </div><!-- / project-details -->
+                </div><!-- / img-bg-color -->
+            </li>
+            <!-- / project -->
+
+            <!-- project -->
+            <li class="col-xs-6 col-md-4 project m-project">
+                <div class="img-bg-color primary">
+                    <a href="projects/478bay/project.php" class="project-link">
+                      <!-- / project-link -->
+                      <img src="projects/478bay/478bay1.jpg" alt="">
+                      <!-- / project-image -->
+
+                      <!-- project-hover-tools -->
+                      <div class="project-hover-tools">
+                          <span class="view-btn">
+                              <i class="lnr lnr-eye"></i>
+                          </span>
+                      </div><!-- / project-hover-tools -->
+                    </a>
+                    <!-- project-details -->
+                    <div class="project-details">
+                        <h5 class="project-title">SINGLE FAMILY HOME</h5>
+                        <p class="skill">KEY BISCAYNE, FL</p>
+                    </div><!-- / project-details -->
+                </div><!-- / img-bg-color -->
+            </li>
+            <!-- / project -->
+
+            <!-- project -->
+            <li class="col-xs-6 col-md-4 project m-project">
+                <div class="img-bg-color primary">
+                    <a href="projects/pdxhouse/project.php" class="project-link">
+                      <!-- / project-link -->
+                      <img src="projects/pdxhouse/pdxhouse2.jpg" alt="">
+                      <!-- / project-image -->
+
+                      <!-- project-hover-tools -->
+                      <div class="project-hover-tools">
+                          <span class="view-btn">
+                              <i class="lnr lnr-eye"></i>
+                          </span>
+                      </div><!-- / project-hover-tools -->
+                    </a>
+                    <!-- project-details -->
+                    <div class="project-details">
+                        <h5 class="project-title">SINGLE FAMILY HOME</h5>
+                        <p class="skill">PORTLAND, FL</p>
+                    </div><!-- / project-details -->
+                </div><!-- / img-bg-color -->
+            </li>
+            <!-- / project -->
+
+            <!-- project -->
+            <li class="col-xs-6 col-md-4 project m-project">
+                <div class="img-bg-color primary">
+                    <a href="projects/175harbor/project.php" class="project-link">
+                      <!-- / project-link -->
+                      <img src="projects/175harbor/175harbor1.jpg" alt="">
+                      <!-- / project-image -->
+
+                      <!-- project-hover-tools -->
+                      <div class="project-hover-tools">
+                          <span class="view-btn">
+                              <i class="lnr lnr-eye"></i>
+                          </span>
+                      </div><!-- / project-hover-tools -->
+                    </a>
+                    <!-- project-details -->
+                    <div class="project-details">
+                        <h5 class="project-title">SINGLE FAMILY HOME</h5>
+                        <p class="skill">KEY BISCAYNE, FL</p>
+                    </div><!-- / project-details -->
+                </div><!-- / img-bg-color -->
+            </li>
+            <!-- / project -->
+
+            <!-- project -->
+            <li class="col-xs-6 col-md-4 project m-project">
+                <div class="img-bg-color primary">
+                    <a href="projects/345woodcrest/project.php" class="project-link">
+                      <!-- / project-link -->
+                      <img src="projects/345woodcrest/345woodcrest6.jpg" alt="">
+                      <!-- / project-image -->
+
+                      <!-- project-hover-tools -->
+                      <div class="project-hover-tools">
+                          <span class="view-btn">
+                              <i class="lnr lnr-eye"></i>
+                          </span>
+                      </div><!-- / project-hover-tools -->
+                    </a>
+                    <!-- project-details -->
+                    <div class="project-details">
+                        <h5 class="project-title">SPEC HOME</h5>
+                        <p class="skill">KEY BISCAYNE, FL</p>
+                    </div><!-- / project-details -->
+                </div><!-- / img-bg-color -->
+            </li>
+            <!-- / project -->
+
+            <!-- project -->
+            <li class="col-xs-6 col-md-4 project m-project">
+                <div class="img-bg-color primary">
+                    <a href="projects/400woodcrest/project.php" class="project-link">
+                      <!-- / project-link -->
+                      <img src="projects/400woodcrest/400woodcrest1.jpg" alt="">
+                      <!-- / project-image -->
+
+                      <!-- project-hover-tools -->
+                      <div class="project-hover-tools">
+                          <span class="view-btn">
+                              <i class="lnr lnr-eye"></i>
+                          </span>
+                      </div><!-- / project-hover-tools -->
+                    </a>
+                    <!-- project-details -->
+                    <div class="project-details">
+                        <h5 class="project-title">SINGLE FAMILY HOME</h5>
+                        <p class="skill">KEY BISCAYNE, FL</p>
                     </div><!-- / project-details -->
                 </div><!-- / img-bg-color -->
             </li>

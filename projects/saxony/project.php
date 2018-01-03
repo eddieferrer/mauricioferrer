@@ -47,72 +47,72 @@
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="saxony1.jpg" class="project_image">
-                  <img src="saxony1.jpg" alt="" class="space-bottom-30 ">
+                  <img src="saxony1.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="saxony2.jpg" class="project_image">
-                  <img src="saxony2.jpg" alt="" class="space-bottom-30 ">
+                  <img src="saxony2.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="saxony3.jpg" class="project_image">
-                  <img src="saxony3.jpg" alt="" class="space-bottom-30 ">
+                  <img src="saxony3.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Aleros</span>
                 <a href="saxony4.jpg" class="project_image">
-                  <img src="saxony4.jpg" alt="" class="space-bottom-30 ">
+                  <img src="saxony4.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Head & Sill Details</span>
                 <a href="saxony5.png" class="project_image">
-                  <img src="saxony5.png" alt="" class="space-bottom-30 ">
+                  <img src="saxony5.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Head & Sill Details</span>
                 <a href="saxony6.png" class="project_image">
-                  <img src="saxony6.png" alt="" class="space-bottom-30 ">
+                  <img src="saxony6.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="saxony7.jpg" class="project_image">
-                  <img src="saxony7.jpg" alt="" class="space-bottom-30 ">
+                  <img src="saxony7.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Balustrade Design Concept</span>
                 <a href="saxony8.png" class="project_image">
-                  <img src="saxony8.png" alt="" class="space-bottom-30 ">
+                  <img src="saxony8.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Balustrade Design Concept</span>
                 <a href="saxony9.png" class="project_image">
-                  <img src="saxony9.png" alt="" class="space-bottom-30 ">
+                  <img src="saxony9.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="saxony10.jpg" class="project_image">
-                  <img src="saxony10.jpg" alt="" class="space-bottom-30 ">
+                  <img src="saxony10.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="saxony11.jpg" class="project_image">
-                  <img src="saxony11.jpg" alt="" class="space-bottom-30 ">
+                  <img src="saxony11.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 

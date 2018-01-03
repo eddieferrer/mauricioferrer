@@ -48,47 +48,47 @@
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="lanai1.jpg" class="project_image">
-                  <img src="lanai1.jpg" alt="" class="space-bottom-30 ">
+                  <img src="lanai1.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>SE View</span>
                 <a href="lanai2.jpg" class="project_image">
-                  <img src="lanai2.jpg" alt="" class="space-bottom-30 ">
+                  <img src="lanai2.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>SW View</span>
                 <a href="lanai3.jpg" class="project_image">
-                  <img src="lanai3.jpg" alt="" class="space-bottom-30 ">
+                  <img src="lanai3.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="lanai4.png" class="project_image">
-                  <img src="lanai4.png" alt="" class="space-bottom-30 ">
+                  <img src="lanai4.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>NE View</span>
                 <a href="lanai5.jpg" class="project_image">
-                  <img src="lanai5.jpg" alt="" class="space-bottom-30 ">
+                  <img src="lanai5.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>East View</span>
                 <a href="lanai6.jpg" class="project_image">
-                  <img src="lanai6.jpg" alt="" class="space-bottom-30 ">
+                  <img src="lanai6.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="lanai7.png" class="project_image">
-                  <img src="lanai7.png" alt="" class="space-bottom-30 ">
+                  <img src="lanai7.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 

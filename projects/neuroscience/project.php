@@ -48,122 +48,122 @@
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="neuro1.jpg" class="project_image">
-                  <img src="neuro1.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro1.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="neuro2.jpg" class="project_image">
-                  <img src="neuro2.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro2.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="neuro3.jpg" class="project_image">
-                  <img src="neuro3.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro3.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Wall Design</span>
                 <a href="neuro4.jpg" class="project_image">
-                  <img src="neuro4.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro4.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Wall Assembly</span>
                 <a href="neuro5.jpg" class="project_image">
-                  <img src="neuro5.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro5.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Wall Assembly</span>
                 <a href="neuro6.jpg" class="project_image">
-                  <img src="neuro6.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro6.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Installation Progress</span>
                 <a href="neuro7.jpg" class="project_image">
-                  <img src="neuro7.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro7.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="neuro8.jpg" class="project_image">
-                  <img src="neuro8.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro8.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Installation Progress</span>
                 <a href="neuro9.jpg" class="project_image">
-                  <img src="neuro9.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro9.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="neuro10.jpg" class="project_image">
-                  <img src="neuro10.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro10.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>South View</span>
                 <a href="neuro11.jpg" class="project_image">
-                  <img src="neuro11.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro11.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>South Isometric</span>
                 <a href="neuro12.jpg" class="project_image">
-                  <img src="neuro12.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro12.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>SW Corner View</span>
                 <a href="neuro13.jpg" class="project_image">
-                  <img src="neuro13.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro13.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>NW Corner View</span>
                 <a href="neuro18.jpg" class="project_image">
-                  <img src="neuro18.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro18.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>North Entrance</span>
                 <a href="neuro14.jpg" class="project_image">
-                  <img src="neuro14.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro14.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Vestibule Interior View</span>
                 <a href="neuro15.jpg" class="project_image">
-                  <img src="neuro15.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro15.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Double Wall Interior View</span>
                 <a href="neuro16.jpg" class="project_image">
-                  <img src="neuro16.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro16.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Catwalk Interior View</span>
                 <a href="neuro17.jpg" class="project_image">
-                  <img src="neuro17.jpg" alt="" class="space-bottom-30 ">
+                  <img src="neuro17.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
               <!-- sizer -->

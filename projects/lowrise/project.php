@@ -48,48 +48,48 @@
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="lowrise1.png" class="project_image">
-                  <img src="lowrise1.png" alt="" class="space-bottom-30 ">
+                  <img src="lowrise1.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Front View</span>
                 <a href="lowrise2.jpg" class="project_image">
-                  <img src="lowrise2.jpg" alt="" class="space-bottom-30 ">
+                  <img src="lowrise2.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <a href="lowrise3.png" class="project_image">
-                  <img src="lowrise3.png" alt="" class="space-bottom-30 ">
+                  <img src="lowrise3.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>NE View</span>
                 <a href="lowrise4.jpg" class="project_image">
-                  <img src="lowrise4.jpg" alt="" class="space-bottom-30 ">
+                  <img src="lowrise4.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>2nd Floor Plan</span>
                 <a href="lowrise5.png" class="project_image">
-                  <img src="lowrise5.png" alt="" class="space-bottom-30 ">
+                  <img src="lowrise5.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>SE View</span>
                 <a href="lowrise6.jpg" class="project_image">
-                  <img src="lowrise6.jpg" alt="" class="space-bottom-30 ">
+                  <img src="lowrise6.jpg" alt="" class="space-bottom-30">
                 </a>
               </li>
 
               <li class="col-xs-6 col-md-4 m-project">
                 <span>Typical Floor Plan</span>
                 <a href="lowrise7.png" class="project_image">
-                  <img src="lowrise7.png" alt="" class="space-bottom-30 ">
+                  <img src="lowrise7.png" alt="" class="space-bottom-30">
                 </a>
               </li>
 
