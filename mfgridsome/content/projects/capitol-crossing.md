@@ -25,5 +25,3 @@ info_apartment: 'Architectural Design by: KRJDA'
 info_map: 'Location: Washington, DC'
 description: "EXTERIOR CURTAINWALL CLADDING"
 ---
-
-Content

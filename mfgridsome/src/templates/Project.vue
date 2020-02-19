@@ -25,6 +25,8 @@
                       <img :src="project_image.image.src" alt=""/>
                     </a>
                   </li>
+                  <!-- sizer -->
+                  <li class="col-xs-6 col-md-4 shuffle_sizer"></li>
               </ul> <!-- / projects -->
             </div>
             <div class="row" v-if="$page.project.info_map || $page.project.info_apartment || $page.project.description">
@@ -34,18 +36,18 @@
               <div class="col-sm-4" v-if="$page.project.info_map || $page.project.info_apartment">
                   <h4>PROJECT INFO</h4>
                   <div class="project-info">
-                      <div class="info">
+                      <div class="info" v-if="$page.project.info_apartment">
                           <p><i class="lnr lnr-apartment"></i><span>{{$page.project.info_apartment}}</span></p>
                       </div>
-                      <div class="info">
-                          <p><i class="lnr lnr-apartment"></i><span>{{$page.project.info_map}}</span></p>
+                      <div class="info" v-if="$page.project.info_map">
+                          <p><i class="lnr lnr-map"></i><span>{{$page.project.info_map}}</span></p>
                       </div>
                   </div><!-- / project-info -->
               </div><!-- / col-sm-4 -->
               <div class="col-sm-8" v-if="$page.project.description">
                   <h4>PROJECT DESCRIPTION</h4>
                   <h5 class="gray">{{$page.project.description}}</h5>
-                  <div v-html="$page.post.content" />
+                  <div class="project_info" v-html="$page.project.content" />
               </div><!-- / col-sm-8 -->
             </div><!-- / row -->
         </section>
@@ -85,6 +87,7 @@
 </page-query>
 
 <script>
+import imagesLoaded from 'imagesloaded';
 
 export default {
   components: {
@@ -106,7 +109,15 @@ export default {
         }
       ]
     }
-  }
+  },
+  mounted () {
+    require('~/assets/js/customshuffle.js');
+    // check for when images load, call layout
+    imagesLoaded( document.querySelector('#grid'), function( instance ) {
+      console.log('all images are loaded');
+      demo.shuffle.layout()
+    });
+  },
 }
 </script>
 
@@ -115,5 +126,8 @@ export default {
   background-size: cover;
   background-position: center;
   background-color: #cccccc;
+}
+.project_info ul {
+  list-style: disc;
 }
 </style>

@@ -376,12 +376,10 @@ export default {
     title: 'MAURICIO FERRER - RA, LEED AP'
   },
   mounted () {
-    console.log(this);
   },
   computed: {
       sortedEdges() {
         function compare( a, b ) {
-            console.log(a, b)
             if ( a.node.menu_order < b.node.menu_order ){
                 return -1;
             }

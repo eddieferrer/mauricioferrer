@@ -54,9 +54,6 @@ export default {
     require('~/assets/js/bootstrap.min.js')
     require('~/assets/js/jquery.easing.min.js')
 
-    // require('~/assets/js/custom.js');
-    // require('~/assets/js/jquery.shuffle.min.js');
-
     require('~/assets/js/jquery.magnific-popup.min.js');
 
     $('.lightbox').each(function() {
@@ -71,7 +68,6 @@ export default {
     $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
     $('body').delay(350).css({'overflow':'visible'});
   },
-
 }
 </script>
 

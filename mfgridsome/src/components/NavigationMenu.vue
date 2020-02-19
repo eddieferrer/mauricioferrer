@@ -69,7 +69,6 @@ export default {
     computed: {
       sortedEdges() {
         function compare( a, b ) {
-            console.log(a, b)
             if ( a.node.menu_order < b.node.menu_order ){
                 return -1;
             }

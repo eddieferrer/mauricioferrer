@@ -29,5 +29,3 @@ info_apartment: ""
 info_map: ""
 description: ""
 ---
-
-Content
