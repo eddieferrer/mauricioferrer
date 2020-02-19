@@ -55,7 +55,6 @@ export default {
     require('~/assets/js/jquery.easing.min.js')
 
     require('~/assets/js/jquery.magnific-popup.min.js');
-
     $('.lightbox').each(function() {
         $(this).magnificPopup({
             delegate: 'a.project_image', // the selector for gallery item

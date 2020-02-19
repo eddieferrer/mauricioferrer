@@ -16,3 +16,9 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.project_tile {
+  padding-bottom: 2rem;
+}
+.pagination {
+  border-bottom: 0px !important;
+}

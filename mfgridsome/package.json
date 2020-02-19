@@ -13,9 +13,8 @@
     "@gridsome/transformer-remark": "^0.3.0",
     "bootstrap": "3.3.7",
     "gridsome": "^0.7.0",
-    "imagesloaded": "^4.1.4",
     "jquery": "^3.4.1",
-    "shufflejs": "^5.2.3"
+    "vue-masonry-css": "^1.0.3"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",

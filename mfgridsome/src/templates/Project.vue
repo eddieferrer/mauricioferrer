@@ -18,16 +18,18 @@
       <div id="page-content" class="container">
         <section id="project">
             <div class="row">
-              <ul class="row portfolio list-unstyled lightbox" id="grid">
-                  <li class="col-xs-6 col-md-4 m-project" v-for="(project_image, index) in $page.project.project_images" :key="index">
-                    <span v-if="project_image.caption != ''">{{project_image.caption}}</span>
-                    <a :href="project_image.image.src" class="project_image" v-if="project_image.image">
-                      <img :src="project_image.image.src" alt=""/>
-                    </a>
-                  </li>
-                  <!-- sizer -->
-                  <li class="col-xs-6 col-md-4 shuffle_sizer"></li>
-              </ul> <!-- / projects -->
+                <masonry
+                  :cols="{default: 3, 700: 2, 400: 1}"
+                  :gutter="{default: '30px', 700: '15px'}"
+                  class="lightbox"
+                  >
+                    <div class="project_tile" v-for="(project_image, index) in $page.project.project_images" :key="index">
+                        <span v-if="project_image.caption != ''">{{project_image.caption}}</span>
+                        <a :href="project_image.image.src" class="project_image">
+                          <g-image :src="project_image.image" alt=""/>
+                        </a>
+                    </div>
+                </masonry>
             </div>
             <div class="row" v-if="$page.project.info_map || $page.project.info_apartment || $page.project.description">
               <div class="col-sm-12">
@@ -55,8 +57,12 @@
 
         <!-- project pagination -->
         <div class="pagination">
-            <a href="/projects/pdxhouse/project.php" class="btn btn-direction btn-default-filled"><i class="fa fa-long-arrow-left"></i><span>Previous Project</span></a>
-            <a href="/projects/345woodcrest/project.php" class="btn btn-direction btn-default-filled pull-right"><span>Next Project</span><i class="fa fa-long-arrow-right"></i></a>
+          <g-link v-if="previousProject" class="btn btn-direction btn-default-filled" :to="previousProject.node.path">
+              <i class="fa fa-long-arrow-left"></i><span>Previous Project</span>
+          </g-link>
+          <g-link v-if="nextProject" class="btn btn-direction btn-default-filled pull-right" :to="nextProject.node.path">
+              <span>Next Project</span><i class="fa fa-long-arrow-right"></i>
+          </g-link>
         </div><!-- / project pagination -->
       </div><!-- / container -->
       <!-- / content -->
@@ -74,6 +80,7 @@
         caption
         image
       }
+      menu_order
       canonical_url
       project_type
       project_location
@@ -83,20 +90,37 @@
       path
       content
     }
+    projects: allProject {
+      edges {
+        node {
+          path
+          menu_title
+          menu_order
+        }
+      }
+    }
   }
 </page-query>
 
 <script>
-import imagesLoaded from 'imagesloaded';
 
 export default {
-  components: {
-  },
   computed: {
      styleObject() {
        return {
         backgroundImage: 'url("' + this.$page.project.cover_image.src + '")',
       }
+     },
+     previousProject() {
+       let prevMenuOrder = this.$page.project.menu_order - 1;
+       if (prevMenuOrder === 0 ) {
+         return undefined
+       }
+       return this.$page.projects.edges.find( edge => edge.node.menu_order === prevMenuOrder);
+     },
+     nextProject() {
+       let nextMenuOrder = this.$page.project.menu_order + 1;
+       return this.$page.projects.edges.find( edge => edge.node.menu_order === nextMenuOrder );
      }
   },
   metaInfo () {
@@ -109,14 +133,6 @@ export default {
         }
       ]
     }
-  },
-  mounted () {
-    require('~/assets/js/customshuffle.js');
-    // check for when images load, call layout
-    imagesLoaded( document.querySelector('#grid'), function( instance ) {
-      console.log('all images are loaded');
-      demo.shuffle.layout()
-    });
   },
 }
 </script>
