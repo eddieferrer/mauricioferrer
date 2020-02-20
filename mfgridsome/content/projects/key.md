@@ -12,13 +12,17 @@ project_images: [
         'image': './key/key2.jpg' 
     },
     {
-        'caption': 'NE View',
-        'image': './key/key5.jpg' 
-    },
+        'caption': 'SW View',
+        'image': './key/key3.png' 
+    },      
     {
         'caption': '',
         'image': './key/key4.png' 
-    },    
+    },  
+    {
+        'caption': 'NE View',
+        'image': './key/key5.jpg' 
+    },
     {
         'caption': '',
         'image': './key/key6.png' 
@@ -31,10 +35,6 @@ project_images: [
         'caption': 'Entry View',
         'image': './key/key8.jpg' 
     },
-    {
-        'caption': 'SW View',
-        'image': './key/key3.png' 
-    },    
     {
         'caption': '',
         'image': './key/key9.png' 

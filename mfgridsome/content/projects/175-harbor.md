@@ -9,7 +9,7 @@ project_images: [
     },
     {
         'caption': '',
-        'image': './175harbor/175harbor4.png' 
+        'image': './175harbor/175harbor2.png' 
     },
     {
         'caption': '',
@@ -17,7 +17,7 @@ project_images: [
     },
     {
         'caption': '',
-        'image': './175harbor/175harbor2.png' 
+        'image': './175harbor/175harbor4.png' 
     }
 ]
 canonical_url: false

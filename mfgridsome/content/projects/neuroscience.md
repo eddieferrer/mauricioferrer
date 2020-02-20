@@ -56,10 +56,6 @@ project_images: [
         'image': './neuroscience/neuro13.jpg' 
     },   
     {
-        'caption': 'NW Corner View',
-        'image': './neuroscience/neuro18.jpg' 
-    },     
-    {
         'caption': 'North Entrance',
         'image': './neuroscience/neuro14.jpg' 
     },   
@@ -75,6 +71,10 @@ project_images: [
         'caption': 'Catwalk Interior View',
         'image': './neuroscience/neuro17.jpg' 
     },      
+    {
+        'caption': 'NW Corner View',
+        'image': './neuroscience/neuro18.jpg' 
+    }
 ]
 canonical_url: false
 menu_title: "NEUROSCIENCE & PSYCHOLOGY CENTER"

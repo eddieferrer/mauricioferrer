@@ -9,7 +9,7 @@ module.exports = {
   siteDescription: 'Mauricio Ferrer - RA, LEED AP',
   titleTemplate: '%s',
   templates: {
-    Project: '/:title',
+    Project: '/:title'
   },
 
   plugins: [
@@ -18,7 +18,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Project',
-        path: 'content/projects/*.md',
+        path: 'content/projects/*.md'
       }
     }
   ],
@@ -29,9 +29,7 @@ module.exports = {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
-      plugins: [
-        '@gridsome/remark-prismjs'
-      ]
+      plugins: ['@gridsome/remark-prismjs']
     }
   }
 }

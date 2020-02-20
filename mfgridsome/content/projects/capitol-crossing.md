@@ -4,16 +4,16 @@ cover_image: ./capitol_crossing/banner.jpg
 thumb_image: ./capitol_crossing/capitol3.jpg
 project_images: [
     {
-        'caption': 'Under Construction',
-        'image': './capitol_crossing/capitol3.jpg'
-    },
-    {
         'caption': 'Render by KRJDA',
         'image': './capitol_crossing/capitol1.jpg' 
     },
     {
         'caption': 'Render by KRJDA',
         'image': './capitol_crossing/capitol2.jpg' 
+    },
+    {
+        'caption': 'Under Construction',
+        'image': './capitol_crossing/capitol3.jpg'
     }
 ]
 canonical_url: false

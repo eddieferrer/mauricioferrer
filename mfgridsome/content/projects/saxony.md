@@ -8,20 +8,16 @@ project_images: [
         'image': './saxony/saxony1.jpg'
     },
     {
-        'caption': 'Aleros',
-        'image': './saxony/saxony4.jpg' 
-    },
-    {
-        'caption': '',
-        'image': './saxony/saxony7.jpg' 
-    },      
-    {
         'caption': '',
         'image': './saxony/saxony2.jpg' 
     },
     {
         'caption': '',
         'image': './saxony/saxony3.jpg' 
+    },
+    {
+        'caption': 'Aleros',
+        'image': './saxony/saxony4.jpg' 
     },
     {
         'caption': 'Head & Sill Details',
@@ -31,6 +27,10 @@ project_images: [
         'caption': 'Head & Sill Details',
         'image': './saxony/saxony6.png' 
     },
+    {
+        'caption': '',
+        'image': './saxony/saxony7.jpg' 
+    },  
     {
         'caption': 'Balustrade Design Concept',
         'image': './saxony/saxony8.png' 
