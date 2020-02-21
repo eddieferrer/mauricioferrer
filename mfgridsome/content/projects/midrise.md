@@ -1,7 +1,7 @@
 ---
 title: 'Mid Rise Luxury Condominium'
 cover_image: ./midrise/banner.jpg
-thumb_image: ./midrise/midrise1.png
+thumb_image: ./midrise/midrise1.jpg
 project_images: [
     {
         'caption': 'NW View',

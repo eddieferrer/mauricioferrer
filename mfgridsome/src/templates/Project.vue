@@ -48,7 +48,7 @@
             "
           >
             <div class="col-sm-12">
-              <h3>{{ $page.project.project_type }}</h3>
+              <h3 class="project_title">{{ $page.project.project_type }}</h3>
             </div>
             <div
               class="col-sm-4"
@@ -144,9 +144,9 @@ export default {
   computed: {
     sortedImagesByAspectRatio() {
       function compare(a, b) {
-        let aRatio = a.image.size.height / a.image.size.width;
-        let bRatio = b.image.size.height / b.image.size.width;
-        return bRatio - aRatio;
+        let aRatio = a.image.size.height / a.image.size.width
+        let bRatio = b.image.size.height / b.image.size.width
+        return bRatio - aRatio
       }
       return this.$page.project.project_images.slice().sort(compare)
     },
@@ -193,5 +193,8 @@ export default {
 }
 .project_info ul {
   list-style: disc;
+}
+.project_title {
+  margin-top: 2rem;
 }
 </style>

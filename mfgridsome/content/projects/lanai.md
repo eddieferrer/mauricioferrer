@@ -1,7 +1,7 @@
 ---
 title: 'Lanai'
 cover_image: ./lanai/banner.jpg
-thumb_image: ./lanai/lanai1.jpg
+thumb_image: ./lanai/lanai8.jpg
 project_images: [
     {
         'caption': '',

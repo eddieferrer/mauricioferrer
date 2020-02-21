@@ -3,12 +3,6 @@
     width: 100%
   }
 }
-#portfolio.info-box .project-hover-tools {
-    right: 43%;
-}
-#portfolio.info-box .project:hover .project-hover-tools {
-    right: 43%;
-}
 .gray {
     color: #666;
 }

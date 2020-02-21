@@ -1,7 +1,7 @@
 ---
 title: 'Low Rise Luxury Condominium'
 cover_image: ./lowrise/banner.jpg
-thumb_image: ./lowrise/lowrise1.png
+thumb_image: ./lowrise/lowrise2.jpg
 project_images: [
     {
         'caption': '',
