@@ -57,37 +57,6 @@
               </div>
             </masonry>
           </div>
-          <ul class="row portfolio list-unstyled lightbox" id="grid">
-            <!-- project -->
-            <li
-              class="col-xs-6 col-md-4 project m-project"
-              v-for="edge in sortedEdges"
-              :key="edge.node.id"
-            >
-              <div class="img-bg-color primary">
-                <g-link class="project-link" :to="edge.node.path">
-                  <!-- / project-link -->
-                  <g-image :src="edge.node.thumb_image" alt="" />
-                  <!-- / project-image -->
-
-                  <!-- project-hover-tools -->
-                  <div class="project-hover-tools">
-                    <span class="view-btn">
-                      <i class="lnr lnr-eye"></i>
-                    </span>
-                  </div>
-                  <!-- / project-hover-tools -->
-                </g-link>
-                <!-- project-details -->
-                <div class="project-details">
-                  <h5 class="project-title">{{ edge.node.project_type }}</h5>
-                  <p class="skill">{{ edge.node.project_location }}</p>
-                </div>
-                <!-- / project-details -->
-              </div>
-              <!-- / img-bg-color -->
-            </li>
-          </ul>
           <!-- / projects -->
         </div>
         <!-- / container -->

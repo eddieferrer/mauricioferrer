@@ -26,6 +26,7 @@ menu_order: 10
 project_type: "SINGLE FAMILY HOME"
 project_location: "KEY BISCAYNE, FL"
 info_apartment: ""
-info_map: ""
+info_map: 'Location: Key Biscayne, FL'
 description: ""
 ---
+
