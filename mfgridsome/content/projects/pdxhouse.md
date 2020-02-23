@@ -38,7 +38,7 @@ project_images: [
 ]
 canonical_url: false
 menu_title: "SINGLE FAMILY HOME - PORTLAND"
-menu_order: 8
+menu_order: 9
 project_type: "SINGLE FAMILY HOME"
 project_location: "PORTLAND, OR"
 info_apartment: ''
