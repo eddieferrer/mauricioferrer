@@ -28,7 +28,7 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li class="active">
-            <g-link class="navbar-brand" to="/"><span>HOME</span></g-link>
+            <g-link to="/"><span>HOME</span></g-link>
           </li>
           <li class="dropdown">
             <a
