@@ -5,6 +5,7 @@ import '../assets/style/site.css'
 
 import { getImage } from 'astro:assets'
 import NavigationMenu from '../components/NavigationMenu.astro'
+import Analytics from '../components/Analytics.astro'
 import favicon from '../assets/images/favicon.png'
 import { SITE_DESCRIPTION } from '../lib/site'
 
@@ -69,5 +70,6 @@ const [favicon16, favicon32] = await Promise.all(
     <script>
       import '../scripts/site'
     </script>
+    <Analytics />
   </body>
 </html>
