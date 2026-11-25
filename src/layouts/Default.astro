@@ -1,0 +1,73 @@
+---
+import 'bootstrap/dist/css/bootstrap.css'
+import '../assets/style/index.css'
+import '../assets/style/site.css'
+
+import { getImage } from 'astro:assets'
+import NavigationMenu from '../components/NavigationMenu.astro'
+import favicon from '../assets/images/favicon.png'
+import { SITE_DESCRIPTION } from '../lib/site'
+
+// Vendored theme scripts, loaded as classic scripts in this order
+// (the jQuery plugins expect a global jQuery).
+import jqueryUrl from 'jquery/dist/jquery.min.js?url'
+import bootstrapUrl from '../assets/js/bootstrap.min.js?url'
+import easingUrl from '../assets/js/jquery.easing.min.js?url'
+import magnificUrl from '../assets/js/jquery.magnific-popup.min.js?url'
+
+interface Props {
+  title: string
+  description?: string
+}
+
+const { title, description = SITE_DESCRIPTION } = Astro.props
+const [favicon16, favicon32] = await Promise.all(
+  [16, 32].map((size) => getImage({ src: favicon, width: size, height: size, format: 'png' }))
+)
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content="Mauricio Ferrer" />
+    <meta name="author" content="Mauricio Ferrer" />
+    <link rel="icon" type="image/png" sizes="16x16" href={favicon16.src} />
+    <link rel="icon" type="image/png" sizes="32x32" href={favicon32.src} />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,900" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="preloader">
+        <div class="spinner spinner-round"></div>
+      </div>
+
+      <header>
+        <NavigationMenu />
+        <slot name="header" />
+      </header>
+
+      <main class="main">
+        <slot />
+      </main>
+
+      <footer>
+        <div class="container">
+          <p class="footer-info">© MAURICIO FERRER</p>
+        </div>
+      </footer>
+    </div>
+
+    <script is:inline src={jqueryUrl}></script>
+    <script is:inline src={bootstrapUrl}></script>
+    <script is:inline src={easingUrl}></script>
+    <script is:inline src={magnificUrl}></script>
+    <script>
+      import '../scripts/site'
+    </script>
+  </body>
+</html>

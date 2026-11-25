@@ -1,4 +1,5 @@
 ---
+slug: 'neuroscience-and-psychology-center'
 title: 'Neuroscience And Psychology Center'
 cover_image: ./neuroscience/banner.jpg
 thumb_image: ./neuroscience/neuro1.jpg

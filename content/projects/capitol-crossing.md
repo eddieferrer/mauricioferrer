@@ -1,4 +1,5 @@
 ---
+slug: 'capitol-crossing'
 title: 'Capitol Crossing'
 cover_image: ./capitol_crossing/banner.jpg
 thumb_image: ./capitol_crossing/capitol3.jpg

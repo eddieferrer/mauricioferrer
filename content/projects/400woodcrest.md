@@ -1,4 +1,5 @@
 ---
+slug: '400-woodcrest'
 title: '400 Woodcrest'
 cover_image: ./400woodcrest/banner.jpg
 thumb_image: ./400woodcrest/400woodcrest1.jpg

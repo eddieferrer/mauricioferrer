@@ -1,4 +1,5 @@
 ---
+slug: '345-woodcrest'
 title: '345 Woodcrest'
 cover_image: ./345woodcrest/banner.jpg
 thumb_image: ./345woodcrest/345woodcrest6.jpg

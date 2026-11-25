@@ -1,33 +1,23 @@
 {
-  "name": "gridsome-starter-blog",
+  "name": "mauricioferrer",
   "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.23.4"
+  },
   "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore",
-    "lint": "vue-cli-service lint --fix"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
   },
   "dependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.0",
-    "@gridsome/remark-prismjs": "^0.2.0",
-    "@gridsome/source-filesystem": "^0.6.0",
-    "@gridsome/transformer-remark": "^0.3.0",
-    "bootstrap": "3.3.7",
-    "gridsome": "^0.7.0",
-    "jquery": "^3.4.1",
-    "vue-masonry-css": "^1.0.3"
+    "astro": "^7.4.13",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.8.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-eslint": "^4.2.2",
-    "@vue/cli-service": "^4.2.2",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-gridsome": "^1.4.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-vue": "^6.2.1",
-    "node-sass": "^4.12.0",
-    "prettier": "^1.19.1",
-    "sass-loader": "^8.0.0",
-    "vue-eslint-parser": "^7.0.0"
+    "@astrojs/check": "^0.9.12",
+    "typescript": "^6.0.3"
   }
 }

@@ -1,4 +1,5 @@
 ---
+slug: 'mid-rise-luxury-condominium'
 title: 'Mid Rise Luxury Condominium'
 cover_image: ./midrise/banner.jpg
 thumb_image: ./midrise/midrise1.jpg
