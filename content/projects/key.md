@@ -1,4 +1,5 @@
 ---
+slug: 'key-colony'
 title: 'Key Colony'
 cover_image: ./key/banner.jpg
 thumb_image: ./key/key1.jpg

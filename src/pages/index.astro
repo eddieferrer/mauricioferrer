@@ -1,0 +1,54 @@
+---
+import Layout from '../layouts/Default.astro'
+import Img from '../components/Img.astro'
+import { getProjects, projectPath, SITE_NAME } from '../lib/site'
+import { toColumns, containerStyle, columnStyle } from '../lib/masonry'
+
+const columns = toColumns(await getProjects())
+---
+
+<Layout title={SITE_NAME}>
+  <div slot="header" id="header-banner" class="demo-2">
+    <div class="banner-content text-center">
+      <div class="banner-border">
+        <div class="banner-info">
+          <h1>MAURICIO FERRER</h1>
+          <p><strong>RA, LEED AP</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="portfolio" class="info-box">
+    <div class="container">
+      <div class="row">
+        <div class="portfolio list-unstyled lightbox" data-masonry style={containerStyle}>
+          {
+            columns.map((column) => (
+              <div style={columnStyle()}>
+                {column.map(({ item: p, index }) => (
+                  <div class="project m-project" data-masonry-index={index}>
+                    <div class="img-bg-color primary">
+                      <a href={projectPath(p)} class="project-link">
+                        <Img src={p.data.thumb_image} />
+                        <div class="project-hover-tools">
+                          <span class="view-btn">
+                            <i class="lnr lnr-eye" />
+                          </span>
+                        </div>
+                      </a>
+                      <div class="project-details">
+                        <h5 class="project-title">{p.data.project_type}</h5>
+                        <p class="skill">{p.data.project_location}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

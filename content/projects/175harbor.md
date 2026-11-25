@@ -1,4 +1,5 @@
 ---
+slug: '175-harbor'
 title: '175 Harbor'
 cover_image: ./175harbor/banner.jpg
 thumb_image: ./175harbor/175harbor1.jpg

@@ -1,4 +1,5 @@
 ---
+slug: 'low-rise-luxury-condominium'
 title: 'Low Rise Luxury Condominium'
 cover_image: ./lowrise/banner.jpg
 thumb_image: ./lowrise/lowrise2.jpg

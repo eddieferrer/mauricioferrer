@@ -1,4 +1,5 @@
 ---
+slug: 'saxony-residences'
 title: 'Saxony Residences'
 cover_image: ./saxony/banner.jpg
 thumb_image: ./saxony/saxony1.jpg

@@ -1,4 +1,5 @@
 ---
+slug: 'portland-house'
 title: 'Portland House'
 cover_image: ./pdxhouse/banner.jpg
 thumb_image: ./pdxhouse/pdxhouse5.jpg

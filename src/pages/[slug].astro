@@ -1,0 +1,132 @@
+---
+import { render } from 'astro:content'
+import Layout from '../layouts/Default.astro'
+import Img from '../components/Img.astro'
+import { getProjects, projectPath, SITE_DESCRIPTION, type Project } from '../lib/site'
+import { coverImage, responsiveImage } from '../lib/images'
+import { toColumns, containerStyle, columnStyle } from '../lib/masonry'
+
+export async function getStaticPaths() {
+  const projects = await getProjects()
+  return projects.map((project) => ({
+    params: { slug: project.id },
+    props: { project, projects }
+  }))
+}
+
+interface Props {
+  project: Project
+  projects: Project[]
+}
+
+const { project, projects } = Astro.props
+const p = project.data
+const { Content } = await render(project)
+
+// Tallest images first, as before.
+const images = [...p.project_images].sort(
+  (a, b) => b.image.height / b.image.width - a.image.height / a.image.width
+)
+const tiles = await Promise.all(
+  images.map(async (tile) => ({ ...tile, full: (await responsiveImage(tile.image)).src }))
+)
+const columns = toColumns(tiles)
+
+const banner = await coverImage(p.cover_image)
+const previous = projects.find((x) => x.data.menu_order === p.menu_order - 1)
+const next = projects.find((x) => x.data.menu_order === p.menu_order + 1)
+---
+
+<Layout title={`${p.menu_title} - MAURICIO FERRER`} description={p.description || SITE_DESCRIPTION}>
+  <div slot="header" id="header-banner" style={`background-image:url("${banner}")`}>
+    <div class="banner-content single-page text-center">
+      <div class="banner-info">
+        <h1>{p.project_type}</h1>
+        <p>{p.project_location}</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="page-content" class="container">
+    <section id="project">
+      <div class="row">
+        <div class="lightbox" data-masonry style={containerStyle}>
+          {
+            columns.map((column) => (
+              <div style={columnStyle()}>
+                {column.map(({ item: tile, index }) => (
+                  <div class="project_tile" data-masonry-index={index}>
+                    {tile.caption !== '' && <span>{tile.caption}</span>}
+                    <a href={tile.full} class="project_image">
+                      <Img src={tile.image} />
+                    </a>
+                  </div>
+                ))}
+              </div>
+            ))
+          }
+        </div>
+      </div>
+      {
+        (p.info_map || p.info_apartment || p.description) && (
+          <div class="row">
+            <div class="col-sm-12">
+              <h3 class="project_title">{p.project_type}</h3>
+            </div>
+            {(p.info_map || p.info_apartment) && (
+              <div class="col-sm-4">
+                <h4>PROJECT INFO</h4>
+                <div class="project-info">
+                  {p.info_apartment && (
+                    <div class="info">
+                      <p>
+                        <i class="lnr lnr-apartment" />
+                        <span>{p.info_apartment}</span>
+                      </p>
+                    </div>
+                  )}
+                  {p.info_map && (
+                    <div class="info">
+                      <p>
+                        <i class="lnr lnr-map" />
+                        <span>{p.info_map}</span>
+                      </p>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+            {p.description && (
+              <div class="col-sm-8">
+                <h4>PROJECT DESCRIPTION</h4>
+                <h5 class="gray">{p.description}</h5>
+                <div class="project_info">
+                  <Content />
+                </div>
+              </div>
+            )}
+          </div>
+        )
+      }
+    </section>
+
+    <div class="pagination">
+      {
+        previous && (
+          <a href={projectPath(previous)} class="btn btn-direction btn-default-filled">
+            <i class="fa fa-long-arrow-left" />
+            <span>Previous Project</span>
+          </a>
+        )
+      }
+      {
+        next && (
+          <a href={projectPath(next)} class="btn btn-direction btn-default-filled pull-right">
+            <span>Next Project</span>
+            <i class="fa fa-long-arrow-right" />
+          </a>
+        )
+      }
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,17 @@
+/* Site-specific styles (previously in the Vue components). */
+.project_info ul {
+  list-style: disc;
+}
+.project_title {
+  margin-top: 2rem;
+}
+#header-banner {
+  background: url('../images/banner-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #cccccc;
+}
+.project-link {
+  display: inline-block;
+  position: relative;
+}
