@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import '../assets/style/index.css'
 import '../assets/style/site.css'
 import { SITE_NAME } from '../lib/site'
+import Analytics from '../components/Analytics.astro'
 // Matches the old Gridsome default 404 page.
 ---
 
@@ -15,5 +16,6 @@ import { SITE_NAME } from '../lib/site'
   </head>
   <body>
     <h1 id="app">404 - not found</h1>
+    <Analytics />
   </body>
 </html>
